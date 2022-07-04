@@ -1,0 +1,17 @@
+.card-foot {
+    color: var(--color-primary-soft-blue);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    font-family: 'Outfit-light';
+}
+
+.card-foot>.owner {
+    margin-left: 1rem;
+}
+
+span>span {
+    color: var(--color-white);
+    text-transform: capitalize;
+}

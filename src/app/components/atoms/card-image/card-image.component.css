@@ -1,0 +1,14 @@
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image>img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,33 @@
+.card-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "description description" "price timeLeft";
+    font-weight: var(--font-weight-1);
+    font-family: 'Outfit-light';
+}
+
+.card-body>.card-description {
+    grid-area: description;
+    color: var(--color-primary-soft-blue);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-body>.card-price {
+    grid-area: price;
+    color: var(--color-primary-cyan);
+    display: flex;
+    font-family: 'Outfit';
+}
+
+.card-body .icon {
+    margin-right: .5rem;
+    align-items: center;
+}
+
+.card-body>.card-time-left {
+    grid-area: timeLeft;
+    text-align: right;
+    color: var(--color-primary-soft-blue);
+    display: flex;
+}

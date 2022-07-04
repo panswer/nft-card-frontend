@@ -1,0 +1,12 @@
+.container-root {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-very-dark-blue-main-bg);
+    color: var(--color-very-dark-blue-line);
+    font-size: var(--font-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-root>.card {}
